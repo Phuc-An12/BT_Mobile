@@ -1,4 +1,7 @@
 package com.example.smartuthtasks.network
 
-class Task {
-}
+data class Task(
+    val id: Int = 0,
+    val title: String = "",
+    val completed: Boolean = false
+)

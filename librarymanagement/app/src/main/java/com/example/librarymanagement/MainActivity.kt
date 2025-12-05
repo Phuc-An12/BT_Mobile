@@ -18,6 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+// 🟢 Đặt các data class ở ngoài class MainActivity
 data class Book(
     val id: Int,
     val name: String,
@@ -320,3 +321,4 @@ fun StudentListScreen(students: List<Student>, modifier: Modifier = Modifier) {
         }
     }
 }
+
